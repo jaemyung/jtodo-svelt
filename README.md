@@ -61,7 +61,7 @@ cd backend
 npm run dev
 ```
 
-The backend will be running on `http://localhost:5000`
+The backend will be running on `http://localhost:3001`
 
 ### 4. Start the Frontend Development Server
 
@@ -168,7 +168,7 @@ docker-compose up -d
 
 The backend uses the following environment variables (defaults shown):
 
-- `PORT=5000` - Backend server port
+- `PORT=3001` - Backend server port
 - `DB_USER=postgres` - Database username
 - `DB_HOST=localhost` - Database host
 - `DB_NAME=todo_db` - Database name
